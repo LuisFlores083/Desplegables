@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css" type="text/css" />
+	<link rel="stylesheet" href="css/app_pc.css" type="text/css" />
+	<link rel="stylesheet" href="css/app_tb.css" type="text/css" />
+	<link rel="stylesheet" href="css/animacion.css" type="text/css" />
+    <script src="java/codigo.js"></script>
+    <title>JAVASCRIPT</title>
+</head>
+    <body>
+        <header id="cabecera">
+            <input type="checkbox" class="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-toggle center">&equiv;</label>
+                <nav id="menuPrincipal">
+                    <a class="opcion" href="#Home">JAVASCRIPT</a>
+                </nav>
+        </header>
+        
+       
+        <section class="contenido" id="content">
+            <div class="capa">
+                <div class="titBtn">
+                    <h3 class="titulo">Categoria 1</h3>
+                    <button class="btn" id="bajar1" onclick="Mostrar(1)">&#x25B8</button>
+                    <button class="btn" id="subir1" onclick="Ocultar(1)">&#x25BC</button>
+                </div>
+                
+                <p id="texto1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, similique neque! 
+                    Facilis, amet voluptates alias vitae sunt exercitationem, tempore asperiores, 
+                    eius ab quos ullam natus perferendis nihil nemo nam? Aliquam!
+                </p>
+            </div>
+
+            <div class="capa">
+                <div class="titBtn">
+                    <h3 class="titulo">Categoria 2</h3>
+                    <button class="btn" id="bajar2" onclick="Mostrar(2)">&#x25B8</button>
+                    <button class="btn" id="subir2" onclick="Ocultar(2)">&#x25BC</button>
+                </div>
+                
+                <p id="texto2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, similique neque! 
+                    Facilis, amet voluptates alias vitae sunt exercitationem, tempore asperiores, 
+                    eius ab quos ullam natus perferendis nihil nemo nam? Aliquam!
+                </p>
+            </div>
+
+            <div class="capa">
+                <div class="titBtn">
+                    <h3 class="titulo">Categoria 3</h3>
+                    <button class="btn" id="bajar3" onclick="Mostrar(3)">&#x25B8</button>
+                    <button class="btn" id="subir3" onclick="Ocultar(3)">&#x25BC</button>
+                </div>
+                <p id="texto3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, similique neque! 
+                    Facilis, amet voluptates alias vitae sunt exercitationem, tempore asperiores, 
+                    eius ab quos ullam natus perferendis nihil nemo nam? Aliquam!
+                </p>
+            </div>
+        </section>
+
+        <footer id="contacto">
+            <div><p>Luis Angel Suarez Flores</p></div>
+        </footer> 
+    </body>
+</html>
